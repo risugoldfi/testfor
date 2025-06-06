@@ -8,6 +8,10 @@ DATABASE_FILE = 'example.db'
 DB_USERNAME = 'admin'
 DB_PASSWORD = 'password123'
 
+# Hardcoded password
+db_password = "superSecret123"
+
+
 # 检查数据库文件是否存在
 if os.path.exists(DATABASE_FILE):
     print(f"数据库文件 {DATABASE_FILE} 已存在。")
